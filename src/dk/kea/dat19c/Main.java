@@ -12,16 +12,21 @@ public class Main {
         il.add(17);
         il.add(42);
 
+
         //udskriv
         print(il);
+        System.out.println(il.size());
+        System.out.println(il.get(0));
+
 
         //fjern et element
-        il.remove(1);
+        il.remove( 1);
 
         //udskriv
         print(il);
 
     }
+
 
     private static void print(IntOnlyArrayList list){
         //udskrift som ArrayList - kan laves som toString i IntOnlyArrayList
