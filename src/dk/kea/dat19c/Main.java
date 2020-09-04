@@ -23,6 +23,9 @@ public class Main {
         il.remove( 1);
 
         //udskriv
+        il.Clear();
+        print(il);
+        il.add(42);
         print(il);
 
     }
